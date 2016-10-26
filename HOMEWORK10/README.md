@@ -1,3 +1,16 @@
+![](http://www.plantuml.com/plantuml/img/VOun3eCm34LtJc5bAaClm80OUekAmKeii09Eb1WgReyHKjMfauV_tfE7gbXqMvTcgrJWsODx5PR8Ci5E4gwxefzPo7N0Of22JooFzcj4EZ86wC3FALM23weD1jp3twPPRvOT5mwGMKQJYnZmatSJwTsywCm-sjWC5hAtJm00)
+
+@startuml
+user -> "Drinking vending machine": insert coin()
+user -> keypad : choose water ()
+keypad-> "Drinking vending machine" : [invalid pin] warning()
+user -> "get water" : pick()
+
+@enduml
+
+
+
+
 
 ![]
 (http://www.plantuml.com/plantuml/img/SoWkIImgAStDuIejJYrIqBLJA2ujI2tAJIpAJYrHi58eJyp9LiZCqz24owVbvwS09P8pylEBKnLAyXMIIYkHf7Fpyr8hWV85YI1HBeVKl1IWwG00)
